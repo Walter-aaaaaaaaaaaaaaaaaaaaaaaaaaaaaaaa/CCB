@@ -1,0 +1,134 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 Mar 2023, 11:59:09 pm
+    Author     : Asus
+*/
+*{
+    margin:0;
+    padding:0;
+
+}
+
+body{
+    margin:0 auto;
+    height:1100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    line-height:1.9;
+    color:black;
+    background:linear-gradient(to right,#2b022b,#090436);
+}
+
+h1{
+    text-align: center;
+}
+
+.text1{
+    border-radius: 10px;
+    padding:7px 2.1rem;
+    padding-left:16px;
+
+}
+
+.text1:focus{
+    box-shadow:0px 5px 10px 2px lightcyan;
+}
+
+#text2{
+    margin-left: 20px;
+}
+
+label{
+    font-weight: bold;
+    font-size:17px;
+}
+
+
+form{
+    margin-top: 15%;
+    box-sizing: border-box;
+    box-shadow:0px 5px 10px 2px lightblue;
+    padding:30px;
+    background-image: linear-gradient(lightpink, lightskyblue, white);
+
+}
+
+#event{
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px
+}
+
+p{
+    font-size: 17px;
+}
+
+#gradio input{
+    margin-left: 6%;
+}
+
+
+#fsubmit{
+    border-radius: 15px;
+    width: 200px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+#fsubmit:hover{
+    background-color: lightsteelblue;
+    color: white;
+}
+
+.submit2{
+    margin-left: 50px;
+    
+}
+
+.Ferror{
+     border-radius:10px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:500px;
+    height:40%;
+    margin-top:200px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.Finfo{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:500px;
+    height:40%;
+    margin-top:200px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+
+
+
+@media only screen and (max-width:600px){
+
+    body{
+        display:block;
+
+    }
+    form{
+        display: block;
+        float: left;
+        width:100%;
+        margin-bottom:6%;
+    }
+
+}

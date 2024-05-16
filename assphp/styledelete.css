@@ -1,0 +1,152 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 May 2023, 1:50:03 am
+    Author     : Chen Chun Qing
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color: white;
+}
+
+body{   
+    margin-top:8%;
+    background:linear-gradient(to right,#2b022b,#090436);
+    font-family:Arial,Helvetica,san-serif;
+}
+
+.filtering{
+    font-size: 20px;
+    
+}
+
+.day{
+    font-size: 25px;
+}
+
+#date{
+    color: black;
+    font-size: 20px;
+}
+
+.days{
+    padding: 10px 10px 10px 10px;
+}
+
+#method{
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#keyword{
+    color: black;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px; 
+}
+
+#search{
+    padding: 10px 10px 10px 10px;
+    margin-left: 20%;
+    width: 25%;
+}
+
+table{
+    color: black;
+    background-color: purple;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 50px;
+    border:10px solid white;
+    border-collapse: collapse;
+    border-radius:40px;
+}
+
+td{
+    font-weight: bold;
+    border:5px solid white;
+    color:white;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+#delete{
+    color: black;
+    float:right;
+    padding: 15px 15px 15px 15px;
+    font-size: 20px;
+}
+
+#delete:hover{
+    background: red;
+}
+
+.ed{
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    width: 50%;
+    height:40%;
+    margin-top:100px;
+    margin-left: 25%;
+    color:green;
+    text-align: center;
+    color: red;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    margin-top: 20px;
+    background-color: pink;
+    width:70px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.error{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:20%;
+    height:40%;
+    margin-top:50px;
+    margin-left: 40%;
+    color: red;
+    text-align: center;
+}
+
+.info{
+    font-weight: bold;
+    font-size: 100px;
+    background-color: white;
+    width: 50%;
+    height:40%;
+    margin-top:100px;
+    margin-left: 25%;
+    color:green;
+    text-align: center;
+    color: red;
+}
+a{
+    color: red;
+}
+

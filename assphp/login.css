@@ -1,0 +1,312 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Apr 2023, 1:57:16 pm
+    Author     : User
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+}
+
+.midcontent{
+    text-align:center;
+}
+
+.midcontent h1{
+        animation:rainbow 4s infinite;
+    text-shadow: 2px 2px black;
+}
+
+.midcontent a{
+    animation:rainbow 4s infinite;
+    text-shadow: 2px 2px black;
+}
+
+@keyframes rainbow {
+  0%   {color:red;}
+  16%  {color:orange;}
+  32%  {color:yellow;}
+  48%  {color:green;}
+  64% {color:blue;}
+  80% {color:violet;}
+  100% {color:purple;}
+}
+
+.midcontent h1{
+    font-size:100px;
+    color:#fff;
+    font-weight:600;
+}
+
+.midcontent a{
+    text-decoration: none;
+    color:#fff;
+    display:inline-block;
+    font-size:24px;
+    border:2px solid #fff;
+    padding:14px 70px;
+    border-radius:50px;
+    margin-top:20px;
+}
+
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left:-80px;
+    border-radius:10px;
+    background:#fff;
+}
+
+.headnav .btnloginadmin{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 15pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -30px;
+}
+
+.headnav .btnloginadmin:hover{
+    background:#fff;
+    color:black;
+}
+.headnav .btnloginpopup{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 15pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -30px;
+}
+
+.headnav .btnloginpopup:hover{
+    background:#fff;
+    color:black;
+}
+
+
+.headnav .registerbtn{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 15pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -80px;
+}
+
+.headnav .registerbtn:hover{
+    background:#fff;
+    color:black;
+}
+
+
+.wrapper{
+    position:fixed;
+    width:500px;
+    height:500px;
+    background:rgba(0,0,0,0.7);
+    border: 2px solid rgba(255,255,255,0.6);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display:none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100000000;
+}
+
+.wrapper .from-box{
+    width:100%;
+    padding:40px;
+}
+
+.wrapper .close{
+    position:absolute;
+    top:0;
+    right:0;
+    width:45px;
+    height:45px;
+    background:lightpink;
+    font-size:2em;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 0 20px;
+    cursor:pointer;
+}
+
+.wrapper .close:hover{
+    color:red;
+}
+
+.from-box h2{
+    font-size:2em;
+    text-align:center;
+    margin-top:-10px;
+    color:#fff;
+}
+
+.input{
+    color:#fff;
+    position: relative;
+    width:100%;
+    height:50px;
+    border-bottom:2px solid #fff;
+    margin:30px 0;
+    transform:translateY(-50%);
+}
+
+
+.input label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    font-size:1em;
+    color:white;
+    font-weight:500;
+    pointer-events: none;
+    transition:.5s;
+}
+
+.input input:focus~label,
+.input input:valid~label{
+    top:-5px;
+}
+
+
+
+.input input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size:1em;
+    color:black;
+    font-weight:500;
+    padding:0 35px 0 5px;
+}
+
+.input .icon{
+    position:absolute;
+    right:8px;
+    font-size: 1.3em;
+    color:#fff;
+    line-height:57px;
+}
+
+.remember{
+    font-size: .9em;
+    color:#fff;
+    font-weight:500;
+    margin:-15px 0 15px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.remember label input{
+    margin-right: 5px;
+}
+
+
+.remember a{
+    color:#e4eeef;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.remember a:hover{
+    color: lightpink;
+    text-decoration: underline;
+}
+
+.btnli{
+    width:100%;
+    height:45px;
+    background:#fff;
+    border:none;
+    outline:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:1em;
+    color:#000;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.btnli:hover{
+    background-color: lightpink;
+}
+
+.register{
+    font-size:.9em;
+    color:#fff;
+    text-align:center;
+    font-weight: 500;
+    margin:25px 0 10px 0;
+}
+
+.register p a{
+    color:#e4eeef;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover{
+    color: lightpink;
+    text-decoration: underline;
+}
+
+.backvideo{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+

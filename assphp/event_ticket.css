@@ -1,0 +1,188 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 8, 2023, 2:07:21 PM
+    Author     : LAI WEI SHEN
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100vh;
+    display:grid;
+    font-family: "Staatliches",cursive;
+    background:linear-gradient(to right,#2b022b,#090436);
+    color:black;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.list-ticket{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    height: 700px;
+    margin-top: 10%;
+}
+
+.ticket{
+    border: 2px solid lightblue;
+    margin: auto; 
+    margin-top: 200px;
+    display: flex;
+    background: white;
+    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px,rgba(0,0,0,0.3) 0px 15px 12px;
+}   
+
+.left{
+    display:flex;
+}
+
+.image{
+    height:290px;
+    width: 250px;
+    background-image: url('ticketPhoto.png');
+    background-size:contain;
+    opacity: 0.85;   
+}
+
+.admit-one{
+    position: absolute;
+    color: darkgray;
+    height: 250px;
+    padding: 0 10px;
+    letter-spacing: 0.15em;
+    text-align: center;
+    justify-content: space-around;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+
+.admit-one span{
+    color:white;
+    font-weight: 700;
+}
+
+.left  .ticket-number{
+    display: flex;
+    padding: 5px;
+}
+
+.number{
+    color: white;
+}
+
+.ticket-info{
+    padding: 10px 30px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.date{
+    border-top: 1px solid gray;
+    padding:5px 0;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.date span{
+    width:100px;
+}
+
+.date span:first-child{
+    text-align: left;
+}
+
+.date span:last-child{
+    text-align: right;
+}
+
+.date .april-21{
+    color:#d83565;
+    font-size: 20px;
+}
+
+.show-name{
+    font-size: 32px;
+    text-align: center;
+    font-family: "Nanum Pen script",cursive;
+    border-top: 1px solid gray;
+    padding-top: 3px;
+}
+
+.show-name h1{
+    font-size: 46px;
+    font-weight:700;
+    letter-spacing: 0.1em;
+    color:#4a437e;
+}
+
+.time{
+    padding: 10px 0;
+    color: #4a437e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight:700;
+}
+
+.time span{
+    font-weight: 400;
+    color: gray;
+}
+
+.left time{
+    font-size:16px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    padding-top: 8px;
+    border-top: 1px solid gray;
+}
+
+.location .separator{
+    font-size:20px;
+}
+
+.right{
+    width:180px;
+    border-left: 1px dashed #404040;
+}
+
+.right .right-info-container{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right .show-name h1{
+    font-size: 18px;
+}
+
+.barcode{
+    height:100px;
+}
+
+.barcode img{
+    height: 100%;
+}
+
+.right .ticket-number{
+    color: gray;
+}

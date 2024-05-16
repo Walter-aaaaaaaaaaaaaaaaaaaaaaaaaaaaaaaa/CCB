@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 7, 2023, 12:29:41 AM
+    Author     : LAI WEI SHEN
+*/
+*{
+    margin: 0;
+    padding:0;
+    color: white;
+}
+
+body{
+    background:linear-gradient(to right,#2b022b,#090436);
+    height: 700px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.sucessInsert{
+    color: black;
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid lightgreen;
+    margin-left: auto;
+    margin-right:auto;
+    width: 50%;
+}
+
+.deleteLink{
+    text-decoration: none;
+    color: blue;
+}
+
+.deleteLink:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.background-edit{
+    border: 2px solid white;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.mbError{
+    color: black;
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.title-edit{
+    font-size: 30px;
+    text-align:center;
+    margin: 30px;
+}
+
+.table-edit{
+    margin: 30px;
+    font-size: 30px;
+    width: 80%;
+}
+
+tr,td{
+    padding:5px;
+}
+
+.inputBox-size{
+    height: 45px;
+    width: 450px;
+    border-radius:20px;
+    padding: 8px;
+    font-size: 18px;
+    color: black;
+}
+
+input:focus {
+  background-color: lightskyblue;
+}
+
+.register-btn{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.p-details{
+    margin-top: 10px;
+    font-size:15px;
+    margin-left: 300px;
+}

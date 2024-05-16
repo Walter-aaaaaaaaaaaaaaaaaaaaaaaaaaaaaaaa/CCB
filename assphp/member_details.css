@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 6, 2023, 8:18:58 PM
+    Author     : LAI WEI SHEN
+*/
+
+*{
+    margin: 0;
+    padding:0;
+    color: white;
+}
+
+body{
+    background:linear-gradient(to right,#2b022b,#090436);
+    height: 700px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+first-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.style{
+    display: flex;
+    justify-content: center;
+}
+
+.membership-prop{
+    display: flex;
+    justify-content: center;
+}
+
+.link-EDIT{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-EDIT a{
+    border: 3px solid white;
+    padding:8px;
+    margin-right: 20px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+
+.link-EDIT a:hover{
+    color: black;
+    background: #cccccc;
+    transition: 1s;
+}
+
+.title-memberDetails{
+    font-size: 30px;
+    text-align:center;
+    margin: 30px;
+}
+
+.member-photo{
+    margin:20px;
+}
+
+.inputBox-size{
+    height: 30px;
+    width: 350px;
+    border-radius:5px;
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+}
+
+table,tr,td{
+  padding: 5px;
+}
+
+td{
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.size-table{
+    display:inline-block;
+    padding: 40px;
+    background-color: rgba(101, 104, 184,0.2);
+    border:2px solid white;
+    border-radius: 200px;
+    width:60%;
+}
+
+.inform-table{
+    margin: 30px;
+    font-size: 30px;
+}

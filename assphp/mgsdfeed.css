@@ -1,0 +1,211 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 Apr 2023, 8:45:27 pm
+    Author     : Asus
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1000px;
+    margin-top:15%; 
+    align-items: center;
+    background:linear-gradient(to right,#2b022b,#090436);
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+
+h2{
+    text-align:center;
+    background-color: lightgray;
+    width: 70%;
+    margin-left:15%;
+}
+
+#tblesec1{
+    margin-top: 10%;
+    box-shadow: 0px 10px 30px rgba(0,0,0,.15);
+    background-color:lightcyan;
+    overflow:auto;
+}
+
+.back-searchbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchbar{
+    height: 35px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar input{
+    width:100%;
+    padding-left: 5px;
+    background:transparent;
+    border:none;
+    outline:none;
+    font-size:16px;
+    color:#000;
+}
+
+.searchbar .searchline{
+    margin-top:-3px;
+    margin-left:2px;
+}
+
+.searchbar button{
+    width:35px;
+    height:35px;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+
+table{
+    margin:0 auto;
+    width:70%;
+    background-color:lightcyan;
+    border-collapse: collapse;
+    background-color:lightcyan;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding:10px;
+}
+
+
+thead th{
+    font-size: 13px;
+    background-color: lightgray;
+    border-bottom:5px solid lightblue;
+    padding:10px;
+    
+}
+
+tr td{
+    margin:auto;
+    text-align: center;
+    padding:8px;
+    transition: 2s;
+}
+
+tr td:hover{
+    background-color: lightsteelblue;
+}
+
+.btnDelete{
+    border:none;
+    color:white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size:12px;
+    cursor: pointer;
+    background-color: red;
+    
+    
+}
+
+.btnDelete:hover{
+    padding:10px 10px 10px 10px;
+}
+
+.btnAdd{
+     border:none;
+    color:white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size:12px;
+    cursor: pointer;
+    background-color: lightgreen;
+    transition: 0.5s;
+}
+
+.btnAdd:hover{
+    padding:10px 10px 10px 10px;
+}
+
+
+#deleteCheck{
+    padding: 12px;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 75%;
+    
+}
+
+#deleteCheck:hover{
+    background-color: lightpink;
+    
+}
+
+.function{
+    text-decoration: none;
+}
+
+.function:hover{
+    color: red;
+}
+
+.filter{
+    color: lightpink;
+    text-decoration: none;
+    font-size: 20px;
+}
+ 
+.filter:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+    color: lightblue;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+th a{
+    text-decoration: none;
+}
+
+th a:hover{
+    text-decoration: underline;
+}
+
+.Finfo{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    border: 10px solid lightblue;
+    color: black;
+    width: 550px;
+    margin-left: 33%;
+    
+}
+
+h3{
+    margin-left: 15%;
+}
+
+a{
+    margin-left: 15%;
+}
+
+

@@ -1,0 +1,238 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 Apr 2023, 12:07:03 am
+    Author     : User
+*/
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 Apr 2023, 7:02:55 pm
+    Author     : User
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    background:linear-gradient(to right,#2b022b,#090436);
+    
+}
+
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left:-80px;
+    background:#fff;
+    border-radius:10px;
+}
+
+.headnav .btnloginadmin{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 15pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -30px;
+}
+
+.headnav .btnloginadmin:hover{
+    background:#fff;
+    color:black;
+}
+.headnav .btnloginpopup{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 15pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -30px;
+}
+
+.headnav .btnloginpopup:hover{
+    background:#fff;
+    color:black;
+}
+
+
+.headnav .registerbtn{
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 15pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -80px;
+}
+
+.headnav .registerbtn:hover{
+    background:#fff;
+    color:black;
+}
+
+
+.wrapper{
+    position:relative;
+    width:500px;
+    height:500px;
+    background-color:rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.6);
+    border-radius: 20px;
+    background: lightpink;
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wrapper .from-box{
+    width:100%;
+    padding:70px;
+}
+
+.from-box h2{
+    font-size:2em;
+    text-align: center;
+    margin-top:-10px;
+    color:#fff;
+}
+
+.input{
+    position: relative;
+    width:100%;
+    height:50px;
+    border-bottom:2px solid #fff;
+    margin:30px 0;
+}
+
+.input label{
+    position:absolute;
+    top:50%;
+    left:5px;
+    transform:translateY(-50%);
+    font-size:1em;
+    color:#fff;
+    font-weight:500;
+    pointer-events: none;
+    transition:.5s;
+}
+
+.input input:focus~label,
+.input input:valid~label{
+    top:-5px;
+}
+
+.input input{
+    width:100%;
+    height:100%;
+    background: transparent;
+    border:none;
+    outline:none;
+    font-size: 1em;
+    color:black;
+    font-weight:500;
+    padding:0 35px 0 5px;
+}
+
+.input .icon{
+    position:absolute;
+    right:8px;
+    font-size: 1.3em;
+    color:white;
+    line-height:57px;
+}
+
+.remember{
+    font-size: .9em;
+    color:white;
+    font-weight:500;
+    margin:-15px 0 15px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.remember label input{
+    margin-right: 5px;
+}
+
+
+.remember a{
+    color:grey;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.remember a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.btnli{
+    width:100%;
+    height:45px;
+    background:black;
+    border:none;
+    outline:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:1em;
+    color:#fff;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.btnli:hover{
+    background-color: white;
+    color:lightpink;
+}
+
+
+.backvideo{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:-1;
+}
+

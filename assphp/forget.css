@@ -1,0 +1,133 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Apr 2023, 8:49:02 pm
+    Author     : User
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    background:linear-gradient(to right,#2b022b,#090436);
+    margin: 0;
+    padding: 0;
+}
+
+.forgetbox {
+        position:fixed;
+	width: 600px;
+	margin: 100px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin-top: 0;
+        margin-bottom: 5%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+
+input[type="text"] {
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.comotp{
+    display:flex;
+}
+
+.btnotp {
+        margin-left: 5px;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+        background:chartreuse;
+}
+
+.btnotp:hover {
+	background:greenyellow;
+}
+
+input[type="password"] {
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+
+
+.backbtn {
+	background-color: #333;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+        float:right;
+}
+
+.backbtn:hover {
+	background-color: #555;
+}
+
+.btnchange {
+	background-color: #333;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+        float:right;
+        margin-left:10px;
+}
+
+.btnchange:hover {
+	background-color: #555;
+}
+
+#txtID{
+    margin-bottom:20px;
+}
+
+.backtologin{
+    color:darkgreen;
+    font-weight:500;
+    text-decoration: none;
+    border: 2px solid darkgreen;
+    padding:5px;
+    background:mediumturquoise;
+    border-radius: 5px;
+}
+
+.backtologin:hover{
+    color:mediumaquamarine;
+    background:darkgreen;
+}

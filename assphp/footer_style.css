@@ -1,0 +1,76 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Apr 2023, 7:41:29 pm
+    Author     : Chen Chun Qing
+*/
+
+.footer{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;   
+}
+
+.footer .social a{
+    font-size:24px;
+    color:inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity:0.75;
+}
+
+.footer .social a:hover{
+    opacity: 0.9;
+}
+
+.footer ul{
+    text-align: center;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 23px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0.15;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+
+
+.copy-right{
+margin-top: 15px;
+text-align: center;
+font-size:13px;
+color: #aaa;
+}
+

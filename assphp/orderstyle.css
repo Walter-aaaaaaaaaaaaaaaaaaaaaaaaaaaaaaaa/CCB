@@ -1,0 +1,504 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 Apr 2023, 2:06:56 am
+    Author     : User
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+}
+
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    background:linear-gradient(to right,#2b022b,#090436);
+}
+
+.combination{
+    position:absolute;
+    width:1300px;
+    height:950px;
+    top:30%;
+    border:4px solid #fff;
+    border-radius:10px;
+    font-family:Georgia, Arial and Helvetica;
+}
+
+.asidepic{
+    position:absolute;
+    top:0;
+    left:0;
+    width:630px;
+    height:950px;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("club1.jpg");
+    background-size: cover;
+    background-position: center; 
+    z-index:1;
+    font-weight: 800;
+    border-radius: 10px 0 0 10px;
+}
+
+.asidepic .asidelogo{
+    margin-top: 3%;
+    margin-left:5%;
+    background:white;
+    border-radius: 10px;
+}
+
+.asidepic h2{
+    font-size:50px;
+    margin-top:15%;
+    color:#fff;
+    margin-left:5%;
+}
+
+.asidepic h3{
+    font-size:30px;
+    color:#fff;
+    margin-top:5%;
+    margin-left:5%;
+}
+
+.asidepic p{
+    font-size:20px;
+    color:#fff;
+    margin-top:20%;
+    margin-left:5%;
+}
+
+.socialmedia{
+    list-style:none;
+    margin: 10px 0 10px 0;
+    margin-left:5%;
+}
+
+
+.socialmedia a{
+    margin-right:10px;
+    text-decoration: none;
+    color: #fff;
+    font-size:20pt;
+}
+
+.socialmedia a:hover{
+    color:lightpink;
+}
+
+.ticketdetails{
+    position:absolute;
+    top:0;
+    right:0;
+    width:670px;
+    height:950px;
+    background:#dbd7c5;
+    font-size:25px;
+    z-index:100;
+    border-radius:8px;
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    border-left: 10px solid #474642;
+}
+
+.ticketbox h2{
+    font-size:40px;
+    font-weight:800;
+    text-align: center;
+    margin-top:2%;
+}
+
+.tdate{
+    margin-top:5%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.tdate input[type="text"]{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}
+
+.tdate input[type="text"]:focus{
+    border:4px dotted black;
+    background:lightpink;
+}
+
+.tvenue{
+    margin-top:5%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.tvenue input[type="text"]{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}
+
+.tvenue input[type="text"]:focus{
+    border:4px dotted black;
+    background:lightpink;
+}
+
+.ttime{
+    margin-top:5%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.ttime input[type="text"]{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}
+
+.ttime input[type="text"]:focus{
+    border:4px dotted black;
+    background:lightpink;
+}
+
+.tseat{
+    margin-top:5%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.tseat select{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}
+
+.tseat select:focus{
+    border:4px dotted black;
+    background:lightpink;
+}
+
+.quantity{
+    margin-top:5%;
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+
+input[type="number"]{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}
+
+.lseat{
+    margin-top:5%;
+}
+
+.lseat span{
+    background:#858482;
+    margin-right:8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lseatselected{
+    margin-left:10%;
+    margin-top:5%;
+}
+
+.lseatselected span{
+    background:greenyellow;
+    margin-right:8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lseatsold{
+    margin-left:10%;
+    margin-top:5%;
+}
+
+.lseatsold span{
+    background:red;
+    margin-right:8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.listseat{
+    list-style:none;
+    margin: 10px 0 10px 0;
+    margin-left:5%;
+    display:flex;
+    justify-content: left;
+}
+
+.seat{
+    display:flex;
+    flex:0 0 5%;
+    position:relative;
+}
+
+.seat:nth-child(9){
+    margin-right: 10%;
+}
+
+.seat label{
+    display:block;
+    position:relative;
+    width:80%;
+    text-align:center;
+    font-size:7px;
+    line-height:10px;
+    padding:7px 0;
+    background:#524746;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color:#fff;
+}
+
+.seat label:hover{
+    cursor:pointer;
+    box-shadow: 0 0 0px 2px green;
+}
+
+.seat input[type=checkbox]{
+    position: absolute;
+    display:none;
+}
+
+.seat input[type=checkbox]:checked + label{
+    background:greenyellow;
+}
+
+.hall{
+    background:#0c124d;
+    color:#fff;
+    height:300px;
+    margin:20px auto;
+    margin-left: 5%;
+    margin-right:5%;
+    border:4px dotted red;
+    border-radius: 8px;
+}
+
+.stage{
+    background:#fff;
+    color:black;
+    padding:0 50px 0 50px;
+    margin-bottom:5%;
+    text-align: center;
+}
+
+
+.row{
+    display:flex;
+    margin-top:5%;
+    margin-left:1%;
+}
+
+.hall .scost{
+    font-size:14pt;
+    margin-top:10%;
+    text-align: center;
+}
+
+.submitnresetbtn{
+    float:right;
+    margin-right:10%;
+    margin-top:5%;
+}
+
+.submitnresetbtn button{
+    margin-top:2%;
+    background:#fff;
+    color:black;
+    font-size:18px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.submitnresetbtn button:hover{
+    border:4px dotted black;
+    background:lightpink;
+}
+
+footer{
+    position:absolute;
+    background:#111;
+    height:auto;
+    width:100%;
+    bottom:0;
+    right:0;
+    font-family:"Open Sans";
+    color:#fff;
+}
+
+.footer1{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+.footer1 h3{
+    font-size:1.8rem;
+    font-weight:400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer1 p{
+    max-width:500px;
+    margin:10px auto;
+    line-height:20px;
+    font-size:14px;
+}
+
+.social{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:1rem 0 3rem 0;
+}
+
+.social li{
+    margin:0 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color:#fff;
+    font-size:1.1rem;
+}
+
+.social a:hover{
+    color:lightpink;
+}
+
+.footerdown{
+    background:#000;
+    width:100%;
+    padding:20px 0;
+    text-align:center;
+}
+
+.footerdown p{
+    font-size:14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.edittitle{
+    font-size :40px;
+    color:#fff;
+}
+
+.formedit{
+    justify-content: center;
+    justify-content:center;
+    align-items: center;
+}
+
+input[type="submit"]{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    border:4px dotted black;
+    background:lightpink;
+}
+
+.btncancel{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}
+
+.btncancel:hover{
+    border:4px dotted black;
+    background:lightpink;
+}
+
+.twobutton{
+    float:right;
+}
+
+.infoedit{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+    margin-right:20px;
+}
+
+.erroredit{
+    margin-top:2%;
+    background:#fff;
+    font-size:18px;
+    padding:15px 80px 15px 80px;
+    font-family:Georgia, Arial and Helvetica;
+    border:4px dotted red;
+    outline:none;
+    border-radius: 5px;
+}

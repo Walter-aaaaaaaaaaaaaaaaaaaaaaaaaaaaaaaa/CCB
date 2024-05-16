@@ -1,0 +1,131 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 8, 2023, 11:16:06 PM
+    Author     : LAI WEI SHEN
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background:linear-gradient(to right,#2b022b,#090436);
+    margin-top: 12%;
+}
+
+.size-table-add{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width:80%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    border: 2px solid white;
+    font-size: 25px;
+    padding:10px;
+}
+
+td{
+    border: 2px solid white;
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+}
+
+.return-page{
+    text-decoration: none;
+}
+
+.return-page:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.mbInfo{
+    color:black;
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: lightgreen;
+    border: 10px solid lightblue;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.mbError{
+    color:black;
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.mbErrorText{
+    margin-left: 40px;
+}
+
+.box-newEvent{
+    width: 700px;
+    height: 40px;
+    border-radius: 10px;
+    padding:10px;
+    font-size:20px;
+}
+
+.backsize-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+
+.btn-submit-event-submit{
+    width:200px;
+    height:40px;
+    border-radius: 12px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn-submit-event-reset{
+    width:200px;
+    height:40px;
+    border-radius: 12px;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.btn-submit-event-submit:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+    background: lightgreen;
+    transition: 1s;
+}
+
+.btn-submit-event-reset:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+    background: red;
+    transition: 1s;
+}
+

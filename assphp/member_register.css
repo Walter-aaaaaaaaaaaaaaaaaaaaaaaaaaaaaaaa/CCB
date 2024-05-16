@@ -1,0 +1,153 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 5, 2023, 8:55:32 PM
+    Author     : LAI WEI SHEN
+*/
+
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+.mbError{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.mbErrorText{
+    margin-left: 40px;
+}
+
+.mbInfo{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: lightgreen;
+    border: 10px solid lightblue;
+    width:40%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+body{
+    background:linear-gradient(to right,#2b022b,#090436);
+    height: 700px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.allback-size{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background-size{
+    background-color: rgba(101, 104, 184,0.2);
+    border:2px solid white;
+    border-radius: 1000px;
+    margin:20px auto;
+    padding: 50px;
+}
+
+.title{
+    color:white;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+
+.background-size .form{
+    width: 100%;
+}
+
+.left-box{
+    max-width: 500px;
+    display: inline-block;
+    justify-content:left ;
+    box-sizing: border-box;
+}
+
+.register-form{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.right-box{
+    max-width: 500px;
+    box-sizing: border-box;
+    justify-content:right ;
+}
+
+
+.box-size{
+    display: flex;
+    margin: 10px 20px 20px 10px;
+}
+
+.box-size label{
+    color:white;
+    width: 200px;
+    font-size:28px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.inputBox-size{
+    height: 40px;
+    width: 280px;
+    border-radius:5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+input:focus {
+  background-color: lightskyblue;
+}
+
+.check-box{
+    width: 15px;
+    height: 15px;
+}
+
+.register-btn{
+    text-align: center;
+    margin-left: 30px;
+    
+    height: 20px;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+.register-btn{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+.register-btn a:hover{
+    border: 3px solid white;
+    color: black;
+    background-color: white;
+    cursor:pointer;
+}

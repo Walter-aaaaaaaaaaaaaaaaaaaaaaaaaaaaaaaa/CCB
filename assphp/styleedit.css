@@ -1,0 +1,138 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 May 2023, 1:50:03 am
+    Author     : Chen Chun Qing
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color: black;
+}
+
+
+body{   
+    margin-top:8%;
+    background:linear-gradient(to right,#2b022b,#090436);
+    font-family:Arial,Helvetica,san-serif;
+}
+
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+
+
+
+table{
+    color: black;
+    background-color: purple;
+    text-align: center;
+    margin-left: 39%;
+    margin-top: 50px;
+    border:2px none black;
+    border-collapse: collapse;
+    border-radius:50px;
+}
+
+
+
+
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    border: solid white 3px;
+    width: auto;
+    background-color: purple;
+}
+
+input{
+    margin-top: 20px;
+    background-color: pink;
+    width:10%;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 50px;
+}
+
+.error{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:20%;
+    height:40%;
+    margin-top:50px;
+    margin-left: 40%;
+    color: red;
+    text-align: center;
+}
+
+.info{
+     font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    width: 50%;
+    height:40%;
+    margin-top:100px;
+    margin-left: 25%;
+    color:green;
+    text-align: center;
+    color: red;
+}
+
+.pm label{
+    margin-left: 300px;
+    margin-right: 300px;
+    width:25%;
+    padding:13px;
+    background-color:white;
+    display:inline-block;
+    text-align: center;
+    border:3px solid black;
+    
+}
+
+input[type="radio"]{
+    display:none;
+}
+
+input[type="radio"]:checked+label{
+    background-color: pink;
+    color:black;
+    transition:0.3s;
+}
+
+.error{
+    text-align: center;
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid purple;
+    width:20%;
+    height:40%;
+    margin-top:2%;
+    margin-left:40%;
+}
+
+div.pm{
+    margin-top: 2%;
+}
+
+

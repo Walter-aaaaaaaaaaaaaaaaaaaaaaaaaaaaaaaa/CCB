@@ -1,0 +1,132 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 Apr 2023, 8:59:36 pm
+    Author     : Chen Chun Qing
+*/
+
+body{
+  background:linear-gradient(to right,#2b022b,#090436);
+}
+
+form{
+    border: solid 2px black;
+    margin-left: 25%;
+    margin-top:  10%;
+    background:#c456ad;
+    width: 50%;
+    padding-bottom:60px;
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    border: dotted 3px purple;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    color:white;
+}
+
+h2{
+    margin-top: 4%;
+    border: dotted 3px black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+ ion-icon{
+    float: top;
+    font-size: 3rem;
+}
+
+.png{
+    text-align: center;
+    padding:100px 100px 100px 100px;
+    border: 2px dashed black;
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:black; 
+    border-radius: 10px;
+    
+    
+}
+#png{
+    text-align: center;
+    width:400px;
+    height:150px;
+    font-size:100px;
+    background:linear-gradient(to right,#2b022b,#090436);
+    color:white;
+}
+
+.desc {
+    text-align: center;
+}
+
+.title{
+    font-size: 20px;
+}
+
+#tit{
+    padding-right: 145px;
+}
+
+#ann{
+    padding-right: 190px;
+}
+
+#box{
+    background:linear-gradient(to right,#2b022b,#090436);
+    color:white;
+    font-size: 18px;
+}
+
+input{
+    padding: 12px 12px 12px 12px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+
+b{
+    font-size: 20px;
+}
+div.announce{
+    margin-top: 10px;
+}
+
+.inerror{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    border: 10px solid lightblue;
+    width:20%;
+    height:40%;
+    margin-top:200px;
+    margin-left: 36%;
+}
+span.info{
+    font-size: 20px;
+    background-color: white;
+    margin-top:4%;
+    margin-left: 45%; 
+    text-align: center;
+    color:green;
+}
+
+
+
+
+
+
+
+
+
+
+

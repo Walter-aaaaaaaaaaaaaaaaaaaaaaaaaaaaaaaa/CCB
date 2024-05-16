@@ -1,0 +1,100 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 7 May 2023, 4:43:18 am
+    Author     : Asus
+*/
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+
+
+body{
+    margin-top:15%; 
+    height: 800px;
+    align-items: center;
+    background:linear-gradient(to right,#2b022b,#090436);
+    
+}
+
+div.Ferror{
+    margin: 15%;
+    text-align: center;
+}
+
+form{
+    margin:0 auto;
+    width:50%;
+    border:1px solid lightblue;
+    padding: 20px;
+    background-image: linear-gradient(white,lightskyblue,white);
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.editButton{
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 19%;
+}
+
+.Finfo{
+    text-align: center;
+    margin:20px 0;
+    padding: 10px;
+    
+}
+
+.Finfo{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    border: 10px solid lightblue;
+    color: black;
+    width: 550px;
+    margin-left: 33%;
+    
+}
+
+.Ferror{
+    border-radius:10px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    border: 10px solid lightblue;
+    color: blue;
+    width: 550px;
+    margin-left: 33%;
+}
+
+.EditColumn{
+    border-radius: 10px;
+    padding:7px 1.6rem;
+    padding-left:16px;
+}
+
+b{
+    color:red;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+/*Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+
+ 
+    Created on : Apr 8, 2023, 4:34:36 PM
+    Author     : LAI WEI SHEN*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.style-background{
+    padding: 100px;
+    color:white;
+    background:linear-gradient(to right,#2b022b,#090436);
+}
+
+.backvideo{
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+.back-allEvent{
+    padding: 60px;
+}
+
+.title-event{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.background_event_first{
+    margin: 20px;
+    display: inline-flex;
+}
+
+.event_first{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    background-size: contain;
+    background-position: center;
+    width: 600px;
+    border:1px solid white;
+    height: 500px;
+    padding: 50px;
+}
+
+.display-format{
+    display:flex;
+}
+
+div h3{
+    font-size:35px;
+    text-align: center;
+}
+
+div h4{
+    font-size:25px;
+    margin-bottom: 10px;
+}
+
+div p{
+    font-size:20px;
+    margin-top: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.link-order{
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    border: 5px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.link-order:hover{
+    border: 5px solid #595959;
+    color: black;
+    background: #d1d1e0;
+    transition: 1s;
+}

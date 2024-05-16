@@ -1,0 +1,198 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 6 Apr 2023, 7:02:55 pm
+    Author     : User
+*/
+
+
+header{
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    background:#c456ad;
+    display:flex;
+    border: 8px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left:-80px;
+}
+
+.headh1{
+    color:#fff;
+    font-size: 20pt;
+    margin-left:-40px;
+}
+
+.headnav a{
+    position:relative;
+    font-size:15pt;
+    color:#fff;
+    text-decoration: none;
+    font-weight:500;
+    margin-left:40px;
+}
+
+.headnav a::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:100%;
+    height:3px;
+    background:#fff;
+    border-radius:5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition:transform .5s;
+}
+
+.headnav a:hover::after{
+    transform-origin: right;
+    transform:scaleX(1);
+}
+
+.headnav .btnlogout{
+    width:80px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 10pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -40px;
+}
+
+.headnav .btnlogout:hover{
+    background:#fff;
+    color:black;
+}
+
+.headnav .stdbtn{
+    font-size:4pt;
+    width:130px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 10pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -30px;
+}
+
+.headnav .stdbtn:hover{
+    background:#fff;
+    color:black;
+}
+
+.stddetail{
+    position:fixed;
+    border:2px solid black;
+    background:salmon;
+    z-index: 10000;
+    margin-left:500px;
+    margin-top:7px;
+    padding:20px;
+    border-radius: 10px;
+    color:#fff;
+    display:none;
+}
+
+.stdheader{
+    font-size:15pt;
+    border-bottom: 2px solid gray;
+    color:gray;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+
+.link-details{
+    padding:8px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+.user{
+    margin-top:10px;    
+}
+
+.idshow{
+    padding-top:10px;
+}
+
+.surelogout{
+    position:fixed;
+    border:2px solid black;
+    background:salmon;
+    z-index: 10000;
+    padding:40px;
+    padding-top:100px;
+    padding-bottom:100px;
+    border-radius: 10px;
+    color:#fff;
+    display:none;
+    margin-top:200px;
+    margin-left:-100px;
+}
+
+.sure{
+    width:80px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 10pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -40px;
+}
+
+.sure:hover{
+    background:#fff;
+    color:black;
+}
+
+.cancel{
+    width:80px;
+    height:50px;
+    background:transparent;
+    border:2px solid #fff;
+    outline:none;
+    border-radius:6px;
+    cursor: pointer;
+    font-size: 10pt;
+    color:#fff;
+    font-weight: 500;
+    margin-left:40px;
+    transition: .5s;
+    margin-right: -40px;
+}
+
+.cancel:hover{
+    background:#fff;
+    color:black;
+}
